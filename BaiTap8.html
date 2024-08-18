@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng giá và lịch chiếu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .table-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .bordered-container {
+      border: 2px solid #000;
+      padding: 10px;
+      width: 80%;
+      background-color: #fff;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+
+    .product-image {
+      width: 100px;
+      height: 100px;
+    }
+
+    .bordered-container h2 {
+      margin: 0;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="table-container">
+  <div class="bordered-container">
+    <h2>Bảng giá sản phẩm</h2>
+    <table>
+      <tr>
+        <th>Thông tin sản phẩm</th>
+        <th>Hình ảnh</th>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Nơi sản xuất:</strong> Việt Nam</p>
+          <p><strong>Giá tiền:</strong> 300.000₫</p>
+          <p><strong>Thời gian bảo hành:</strong> 6 tháng</p>
+        </td>
+        <td><img src="path/to/your/image.jpg" alt="Hình ảnh sản phẩm" class="product-image"></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="table-container">
+  <div class="bordered-container">
+    <h2>Mạng nghệ thuật & giải trí</h2>
+    <table>
+      <tr>
+        <th>Ngày chiếu</th>
+        <th>Phim</th>
+      </tr>
+      <tr>
+        <td>Thứ hai</td>
+        <td>Sherlock Holmes</td>
+      </tr>
+      <tr>
+        <td>Thứ hai</td>
+        <td>Lovejoy</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
